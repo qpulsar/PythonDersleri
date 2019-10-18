@@ -1,4 +1,4 @@
-"""
+""" Aşağıdaki çıktıyı veren programı yazınız
 AAA
 AAA
 AAA

@@ -1,4 +1,4 @@
-"""
+""" Aşağıdaki çıktıyı veren programı yazınız
    2
  3 4
  6 8
