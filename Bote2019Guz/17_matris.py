@@ -21,3 +21,10 @@ for i in range(0,10):
         print("{:4}".format(sayi), end="")
         sayi += 1
     print()
+
+sayi = 1
+for i in range(0,100):
+    print("{:>4}".format(sayi), end="")
+    if sayi % 10 == 0:
+        print()
+    sayi += 1
