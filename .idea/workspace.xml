@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37648390-c464-4afa-ad3f-c98b324cfd97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bote2019Guz/53_random.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yz2019/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yz2019/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yz2019/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yz2019/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yz2019/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yz2019/.idea/yz2019.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bote2019Guz/54_mayin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bote2019Guz/52_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bote2019Guz/52_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bote2019Guz/53_random.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bote2019Guz/53_random.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,28 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.52_calculator">
-    <configuration name="17_matris" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonDersleri" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bote2019Guz" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Guz/17_matris.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.53_random">
     <configuration name="49_pal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonDersleri" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,13 +141,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="53_random" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonDersleri" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bote2019Guz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Guz/53_random.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.53_random" />
         <item itemvalue="Python.52_calculator" />
         <item itemvalue="Python.51_hesapmakinesi" />
         <item itemvalue="Python.50_menu" />
         <item itemvalue="Python.49_pal" />
-        <item itemvalue="Python.17_matris" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574926588327</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="sonraki hafta">
+      <created>1574938348491</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574938348491</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +288,7 @@
     <MESSAGE value="ilk hafta" />
     <MESSAGE value="altıncı hafta" />
     <MESSAGE value="yedinci hafta" />
-    <option name="LAST_COMMIT_MESSAGE" value="yedinci hafta" />
+    <MESSAGE value="sonraki hafta" />
+    <option name="LAST_COMMIT_MESSAGE" value="sonraki hafta" />
   </component>
 </project>
