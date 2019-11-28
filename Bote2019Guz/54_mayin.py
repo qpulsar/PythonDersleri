@@ -4,7 +4,10 @@ import random
 root = Tk()
 root.geometry("480x440-50+50")
 root.title("Mayın Tarlası v0.1")
-
+#label de kullanılacak resimleri tanımla
+res_merak = PhotoImage(file="./images/nv.png")
+res_bos = PhotoImage(file="./images/qm.png")
+res_patla = PhotoImage(file="./images/bom.png")
 # Mayınları döşe
 mayinlar = []
 mayin_sayisi = 50
@@ -31,10 +34,10 @@ lbl_sure.pack(side=LEFT, fill=Y, anchor="center")
 ust.pack(side=TOP, fill=X, )
 alt = Frame(root, bg="lightblue")
 alt.pack(side=TOP, fill=X)
-sira = 0 #hangi label
+sira = 0  # hangi label
 for satir in range(0, 20):
     for sutun in range(0, 20):
-        lab = Label(alt, text=sira, relief = GROOVE)
+        lab = Label(alt, text=sira, relief=GROOVE)
         lab.grid(row=satir, column=sutun)
         sira += 1
 
