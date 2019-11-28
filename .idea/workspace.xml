@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37648390-c464-4afa-ad3f-c98b324cfd97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bote2019Guz/52_calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bote2019Guz/53_random.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yz2019/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yz2019/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yz2019/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yz2019/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yz2019/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yz2019/.idea/yz2019.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bote2019Guz/52_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bote2019Guz/52_calculator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -245,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572524028041</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="yedinci hafta">
+      <created>1574926588327</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574926588327</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,6 +286,7 @@
     <MESSAGE value="a" />
     <MESSAGE value="ilk hafta" />
     <MESSAGE value="altıncı hafta" />
-    <option name="LAST_COMMIT_MESSAGE" value="altıncı hafta" />
+    <MESSAGE value="yedinci hafta" />
+    <option name="LAST_COMMIT_MESSAGE" value="yedinci hafta" />
   </component>
 </project>

@@ -2,17 +2,33 @@ from tkinter import *
 
 
 def dugmeBas(p):
+    global nokta
+    if hesapText.get() == "Hata!":
+        hesapText.set("")
+
+    if nokta == True and p==".":
+        return
+
+    if p == ".":
+        nokta = True
+
+    if p in "+-*/":
+        nokta = False
+
     hesapText.set(hesapText.get() + p)
-    # a = int(hesapText.get())
-    # hesapText.set(a)
 
 
 def sil():
     hesapText.set("")
+    nokta = False
 
 
 def hesapla():
-    hesapText.set(str(eval(hesapText.get())))
+    nokta = False
+    try:
+        hesapText.set(str(eval(hesapText.get())))
+    except:
+        hesapText.set("Hata!")
 
 
 root = Tk()
@@ -20,6 +36,7 @@ root.title("Muhteşem Calculator")
 root.geometry("-50+100")
 
 dugmeBaslik = ["7", "8", "9", "4", "5", "6", "1", "2", "3"]
+nokta = False
 
 hesapText = StringVar()
 font = ('digital-7', 30)
