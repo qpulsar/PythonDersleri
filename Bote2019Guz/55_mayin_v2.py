@@ -44,7 +44,7 @@ def onMouse(nesne):
     info = bizimki.grid_info()
     x = info["column"]
     y = info["row"]
-    if tarla[x][y] !=  BASILDI_KOD  and tarla[x][y] != BULDU_KOD:
+    if tarla[x][y] != BASILDI_KOD and tarla[x][y] != BULDU_KOD:
         bizimki["image"] = res_him
 
 
@@ -54,8 +54,9 @@ def onMouseOut(nesne):
     info = bizimki.grid_info()
     x = info["column"]
     y = info["row"]
-    if tarla[x][y] !=  BASILDI_KOD  and tarla[x][y] != BULDU_KOD:
+    if tarla[x][y] != BASILDI_KOD and tarla[x][y] != BULDU_KOD:
         bizimki["image"] = res_bos
+
 
 def onClick(nesne):
     global tarla
@@ -63,14 +64,26 @@ def onClick(nesne):
     info = bizimki.grid_info()
     x = info["column"]
     y = info["row"]
-    if tarla[x][y]==MAYIN_KOD:
+    if tarla[x][y] == MAYIN_KOD or tarla[x][y] == BULDU_KOD:
         bizimki["image"] = res_gum
         tarla[x][y] = BULDU_KOD
     else:
         bizimki["image"] = ""
-        bizimki["text"]='A'
+        bizimki["text"] = komsu_bul(x, y)
         tarla[x][y] = BASILDI_KOD
 
+def komsu_bul(x, y):
+    komsu_mayin = 0;
+    if x>0 and tarla[x-1][y] in [MAYIN_KOD, BULDU_KOD]:
+        komsu_mayin += 1
+    if x<SUTUN-1 and tarla[x+1][y]in [MAYIN_KOD, BULDU_KOD]:
+        komsu_mayin += 1
+    if y<SATIR-1 and tarla[x][y+1]in [MAYIN_KOD, BULDU_KOD]:
+        komsu_mayin += 1
+    if y>0 and tarla[x][y-1]in [MAYIN_KOD, BULDU_KOD]:
+        komsu_mayin += 1
+
+    return komsu_mayin
 
 pen = Tk()
 pen.title("MAYIN TARLASI v2.0")
