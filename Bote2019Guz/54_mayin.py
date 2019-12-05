@@ -20,7 +20,7 @@ def tikla(olay):
     if bizim_label["text"] == "p":
         return
     if int(bizim_label["text"]) in mayinlar:
-        bizim_label["text"] = "p"
+        bizim_label["text"] = "p"  # eğer mayın varsa içine p harfi yaz
         bizim_label["image"] = res_patla
         kalan_mayin -= 1
         lbl_kalan["text"] = kalan_mayin
