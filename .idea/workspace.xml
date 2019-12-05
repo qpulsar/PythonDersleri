@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37648390-c464-4afa-ad3f-c98b324cfd97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bote2019Guz/54_mayin.py" afterDir="false" />
+    <list default="true" id="37648390-c464-4afa-ad3f-c98b324cfd97" name="Default Changelist" comment="mayın tarlası">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bote2019Guz/53_random.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bote2019Guz/53_random.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bote2019Guz/55_mayin_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bote2019Guz/55_mayin_v2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,12 +34,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Belgeler/django/bt5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Bote2019Guz/images" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Bote2019Guz/images" />
       <recent name="$PROJECT_DIR$/Bote2019Guz" />
     </key>
   </component>
@@ -56,49 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.53_random">
-    <configuration name="49_pal" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonDersleri" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bote2019Guz" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Guz/49_pal.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="50_menu" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonDersleri" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bote2019Guz" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Guz/50_menu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.55_mayin_v2">
     <configuration name="51_hesapmakinesi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonDersleri" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,13 +120,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="54_mayin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonDersleri" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bote2019Guz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Guz/54_mayin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="55_mayin_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonDersleri" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bote2019Guz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Guz/55_mayin_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.55_mayin_v2" />
+        <item itemvalue="Python.54_mayin" />
         <item itemvalue="Python.53_random" />
         <item itemvalue="Python.52_calculator" />
         <item itemvalue="Python.51_hesapmakinesi" />
-        <item itemvalue="Python.50_menu" />
-        <item itemvalue="Python.49_pal" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +260,49 @@
       <option name="project" value="LOCAL" />
       <updated>1574938348491</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="sonraki hafta">
+      <created>1574938827546</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574938827546</updated>
+    </task>
+    <task id="LOCAL-00013" summary="sonraki hafta">
+      <created>1574940946106</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574940946106</updated>
+    </task>
+    <task id="LOCAL-00014" summary="mayın tarlası">
+      <created>1574941346842</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574941346843</updated>
+    </task>
+    <task id="LOCAL-00015" summary="mayın tarlası">
+      <created>1574944518750</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1574944518750</updated>
+    </task>
+    <task id="LOCAL-00016" summary="mayın tarlası v2">
+      <created>1575544583933</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1575544583933</updated>
+    </task>
+    <task id="LOCAL-00017" summary="mayın tarlası">
+      <created>1575546715044</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1575546715044</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,6 +331,8 @@
     <MESSAGE value="altıncı hafta" />
     <MESSAGE value="yedinci hafta" />
     <MESSAGE value="sonraki hafta" />
-    <option name="LAST_COMMIT_MESSAGE" value="sonraki hafta" />
+    <MESSAGE value="mayın tarlası v2" />
+    <MESSAGE value="mayın tarlası" />
+    <option name="LAST_COMMIT_MESSAGE" value="mayın tarlası" />
   </component>
 </project>
