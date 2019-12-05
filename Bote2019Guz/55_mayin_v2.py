@@ -6,6 +6,7 @@ SUTUN = 10
 MAYIN_SAYISI = 25
 MAYIN_KOD = 9
 BASILDI_KOD = 8
+BULDU_KOD = 7
 tarla = []
 
 
@@ -43,7 +44,7 @@ def onMouse(nesne):
     info = bizimki.grid_info()
     x = info["column"]
     y = info["row"]
-    if tarla[x][y] != BASILDI_KOD:
+    if tarla[x][y] !=  BASILDI_KOD  and tarla[x][y] != BULDU_KOD:
         bizimki["image"] = res_him
 
 
@@ -53,7 +54,7 @@ def onMouseOut(nesne):
     info = bizimki.grid_info()
     x = info["column"]
     y = info["row"]
-    if tarla[x][y] != BASILDI_KOD:
+    if tarla[x][y] !=  BASILDI_KOD  and tarla[x][y] != BULDU_KOD:
         bizimki["image"] = res_bos
 
 def onClick(nesne):
@@ -64,6 +65,7 @@ def onClick(nesne):
     y = info["row"]
     if tarla[x][y]==MAYIN_KOD:
         bizimki["image"] = res_gum
+        tarla[x][y] = BULDU_KOD
     else:
         bizimki["image"] = ""
         bizimki["text"]='A'
