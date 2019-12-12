@@ -11,6 +11,7 @@ KOD_PATLADI = 8  # Mayın vardı biz basdık patladı
 KOD_BOS = 0  # Tarlanın boş bir yeri
 KOD_BOSTU = 7  # Biz tıkladık açtık ama boşmuş
 tarla = []
+sure = 0  # kronometre
 
 
 def tarla_hazirla():
@@ -47,7 +48,42 @@ def onMouseOver(nesne):
     lab = nesne.widget
     koordinat = lab.grid_info()
     sat, sut = koordinat["row"], koordinat["column"]
-    print(sat, sut)
+    if tarla[sat][sut] not in [KOD_BOSTU, KOD_PATLADI]:
+        lab["image"] = img_mrk
+
+
+def onMouseOut(nesne):
+    global tarla
+    lab = nesne.widget
+    koordinat = lab.grid_info()
+    sat, sut = koordinat["row"], koordinat["column"]
+    if tarla[sat][sut] not in [KOD_BOSTU, KOD_PATLADI]:
+        lab["image"] = img_bos
+
+
+def onClick(nesne):
+    global tarla
+    global kalanMayin
+    lab = nesne.widget
+    koordinat = lab.grid_info()
+    sat, sut = koordinat["row"], koordinat["column"]
+    if tarla[sat][sut] == KOD_PATLADI:
+        return
+    if tarla[sat][sut] == KOD_MAYIN:
+        lab["image"] = img_bam
+        tarla[sat][sut] = KOD_PATLADI
+        kalanMayin -= 1
+        lbl_kalan["text"] = kalanMayin
+    else:
+        lab["image"] = ""
+        tarla[sat][sut] = KOD_BOSTU
+
+
+def zaman():
+    global sure
+    sure += 1
+    lbl_sure["text"] = sure
+    lbl_sure.after(1000, zaman)
 
 
 if __name__ == '__main__':
@@ -64,6 +100,7 @@ if __name__ == '__main__':
     ust = Frame(pen)
     lbl_sure = Label(ust, text="0", width=4, height=2)
     lbl_sure.grid(row=0, column=0, sticky="NEWS")
+    lbl_sure.after(1000, zaman)
     lbl_durum = Label(ust, text=":)", width=4, height=2)
     lbl_durum.grid(row=0, column=1, sticky="NEWS")
     lbl_kalan = Label(ust, text=kalanMayin, width=4, height=2)
@@ -71,8 +108,8 @@ if __name__ == '__main__':
     ust.pack(side=TOP)
 
     img_bos = PhotoImage(file="./images/bos.png")
-    img_mrk = PhotoImage(file="./images/nv.png")
-    img_bam = PhotoImage(file="./images/bom.png")
+    img_mrk = PhotoImage(file="./images/him.png")
+    img_bam = PhotoImage(file="./images/gum.png")
 
     alt = Frame(pen)
     for sat in range(0, SATIR):
@@ -81,6 +118,8 @@ if __name__ == '__main__':
             l.grid(row=sat, column=sut)
             # olaylar olaylar...
             l.bind("<Enter>", onMouseOver)
+            l.bind("<Leave>", onMouseOut)
+            l.bind("<Button-1>", onClick)
 
     alt.pack(side=TOP)
 
