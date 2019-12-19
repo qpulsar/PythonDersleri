@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37648390-c464-4afa-ad3f-c98b324cfd97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bote2019Guz/58_form.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bote2019Guz/58_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bote2019Guz/58_form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bote2019Guz/veritabani.db" beforeDir="false" afterPath="$PROJECT_DIR$/Bote2019Guz/veritabani.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -351,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576154354260</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="sqlite">
+      <created>1576754088366</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1576754088366</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -382,6 +390,7 @@
     <MESSAGE value="sonraki hafta" />
     <MESSAGE value="mayın tarlası v2" />
     <MESSAGE value="mayın tarlası" />
-    <option name="LAST_COMMIT_MESSAGE" value="mayın tarlası" />
+    <MESSAGE value="sqlite" />
+    <option name="LAST_COMMIT_MESSAGE" value="sqlite" />
   </component>
 </project>
