@@ -20,10 +20,14 @@ while not bitti:
         if olay.type == pygame.KEYDOWN and olay.key == pygame.K_SPACE:
             renk = not renk
     tus = pygame.key.get_pressed()
-    if tus[pygame.K_LEFT]: x -= 5
-    if tus[pygame.K_RIGHT]: x += 5
-    if tus[pygame.K_UP]: y += -5
-    if tus[pygame.K_DOWN]: y += 5
+    if tus[pygame.K_LEFT]:
+        x -= 5
+    if tus[pygame.K_RIGHT]:
+        x += 5
+    if tus[pygame.K_UP]:
+        y += -5
+    if tus[pygame.K_DOWN]:
+        y += 5
     if renk:
         c = r
     else:
