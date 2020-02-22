@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+.idea/inspectionProfiles/Project_Default.xml
+.idea/misc.xml
+.idea/PythonDersleri.iml
+.idea/workspace.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/workspace.xml
