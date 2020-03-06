@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37648390-c464-4afa-ad3f-c98b324cfd97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bote2019Bahar/00_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bote2019Bahar/04_top_hareket.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Sync/Korkusuz Family/Burak/Görüntü İşleme/Counter" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -50,28 +50,7 @@
       <recent name="$PROJECT_DIR$/Bote2019Guz" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.03_pygame">
-    <configuration name="00_template" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonDersleri" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bote2019Bahar" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Bahar/00_template.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.04_top_hareket">
     <configuration name="03_pygame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDersleri" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,6 +64,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Bahar/03_pygame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04_top_hareket" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonDersleri" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bote2019Bahar" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Bahar/04_top_hareket.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.04_top_hareket" />
         <item itemvalue="Python.03_pygame" />
         <item itemvalue="Python._07" />
         <item itemvalue="Python._06" />
         <item itemvalue="Python._05" />
-        <item itemvalue="Python.00_template" />
       </list>
     </recent_temporary>
   </component>
@@ -378,34 +378,35 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="349" y="187" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1707.920@0.0.1707.920" timestamp="1582878659221" />
-    <state x="276" y="44" key="CommitChangelistDialog2" timestamp="1582385452206">
-      <screen x="0" y="0" width="1707" height="920" />
+    <state x="414" y="67" key="CommitChangelistDialog2" timestamp="1583518042345">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="276" y="44" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1582385452206" />
+    <state x="414" y="67" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1583518042345" />
     <state x="442" y="214" key="FileChooserDialogImpl" timestamp="1583132454486">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="442" y="214" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1583132454486" />
-    <state width="1766" height="214" key="GridCell.Tab.0.bottom" timestamp="1583517810646">
+    <state width="1766" height="214" key="GridCell.Tab.0.bottom" timestamp="1583519104826">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1300" height="127" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1582315726106" />
-    <state width="1766" height="214" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583517810646" />
-    <state width="1766" height="214" key="GridCell.Tab.0.center" timestamp="1583517810646">
+    <state width="1766" height="214" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583519104826" />
+    <state width="1766" height="214" key="GridCell.Tab.0.center" timestamp="1583519104826">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1300" height="127" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1582315726106" />
-    <state width="1766" height="214" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583517810646" />
-    <state width="1766" height="214" key="GridCell.Tab.0.left" timestamp="1583517810646">
+    <state width="1766" height="214" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583519104826" />
+    <state width="1766" height="214" key="GridCell.Tab.0.left" timestamp="1583519104826">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1300" height="127" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1582315726106" />
-    <state width="1766" height="214" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583517810646" />
-    <state width="1766" height="214" key="GridCell.Tab.0.right" timestamp="1583517810646">
+    <state width="1766" height="214" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583519104826" />
+    <state width="1766" height="214" key="GridCell.Tab.0.right" timestamp="1583519104826">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1300" height="127" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1582315726106" />
-    <state width="1766" height="214" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583517810646" />
+    <state width="1766" height="214" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583519104826" />
     <state width="1207" height="296" key="GridCell.Tab.1.bottom" timestamp="1582315726104">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -422,13 +423,15 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state width="1207" height="296" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1582315726104" />
-    <state x="153" y="101" key="SettingsEditor" timestamp="1582314050561">
-      <screen x="0" y="0" width="1707" height="920" />
+    <state x="229" y="154" key="SettingsEditor" timestamp="1583518155639">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="153" y="101" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1582314050561" />
-    <state x="261" y="192" key="Vcs.Push.Dialog.v2" timestamp="1582385547570">
-      <screen x="0" y="0" width="1707" height="920" />
+    <state x="229" y="154" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1583518155639" />
+    <state x="391" y="292" key="Vcs.Push.Dialog.v2" timestamp="1583518070423">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="261" y="192" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1582385547570" />
+    <state x="391" y="292" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1583518070423" />
   </component>
 </project>
