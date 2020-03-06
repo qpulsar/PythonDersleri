@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37648390-c464-4afa-ad3f-c98b324cfd97" name="Default Changelist" comment="pygame + oop">
-      <change beforePath="$PROJECT_DIR$/.idea/PythonDersleri.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonDersleri.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="37648390-c464-4afa-ad3f-c98b324cfd97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Bote2019Bahar/00_template.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -11,6 +10,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -40,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Bote2019Guz/images" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Sync/Korkusuz Family/Burak/Görüntü İşleme/Counter" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -51,7 +51,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.03_pygame">
-    <configuration name="01_Hollo_oop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="00_template" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDersleri" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,28 +63,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Bahar/01_Hollo_oop.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="02_animal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonDersleri" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bote2019Bahar" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Bahar/02_animal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Bahar/00_template.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="56_sqlite_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="_05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDersleri" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bote2019Guz" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bote2019Bahar" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Guz/56_sqlite_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Bahar/_05.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="57_mayin_v22" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="_06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDersleri" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +122,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bote2019Guz" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bote2019Bahar" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Guz/57_mayin_v22.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Bahar/_06.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_07" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonDersleri" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bote2019Bahar" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bote2019Bahar/_07.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,10 +159,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.03_pygame" />
-        <item itemvalue="Python.02_animal" />
-        <item itemvalue="Python.01_Hollo_oop" />
-        <item itemvalue="Python.56_sqlite_1" />
-        <item itemvalue="Python.57_mayin_v22" />
+        <item itemvalue="Python._07" />
+        <item itemvalue="Python._06" />
+        <item itemvalue="Python._05" />
+        <item itemvalue="Python.00_template" />
       </list>
     </recent_temporary>
   </component>
@@ -366,26 +366,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="pygame + oop" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="276" y="44" key="CommitChangelistDialog2" timestamp="1582385360770">
+    <state x="261" y="118" key="#Notifications" timestamp="1582385529818">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="276" y="44" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1582385360770" />
-    <state width="1300" height="127" key="GridCell.Tab.0.bottom" timestamp="1582315726106">
+    <state x="261" y="118" key="#Notifications/0.0.1707.920@0.0.1707.920" timestamp="1582385529818" />
+    <state x="484" y="506" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583511641275">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="484" y="506" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1583511641275" />
+    <state x="349" y="187" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582878659221">
       <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="349" y="187" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1707.920@0.0.1707.920" timestamp="1582878659221" />
+    <state x="276" y="44" key="CommitChangelistDialog2" timestamp="1582385452206">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="276" y="44" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1582385452206" />
+    <state x="442" y="214" key="FileChooserDialogImpl" timestamp="1583132454486">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="442" y="214" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1583132454486" />
+    <state width="1766" height="214" key="GridCell.Tab.0.bottom" timestamp="1583517810646">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1300" height="127" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1582315726106" />
-    <state width="1300" height="127" key="GridCell.Tab.0.center" timestamp="1582315726106">
-      <screen x="0" y="0" width="1707" height="920" />
+    <state width="1766" height="214" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583517810646" />
+    <state width="1766" height="214" key="GridCell.Tab.0.center" timestamp="1583517810646">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1300" height="127" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1582315726106" />
-    <state width="1300" height="127" key="GridCell.Tab.0.left" timestamp="1582315726106">
-      <screen x="0" y="0" width="1707" height="920" />
+    <state width="1766" height="214" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583517810646" />
+    <state width="1766" height="214" key="GridCell.Tab.0.left" timestamp="1583517810646">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1300" height="127" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1582315726106" />
-    <state width="1300" height="127" key="GridCell.Tab.0.right" timestamp="1582315726106">
-      <screen x="0" y="0" width="1707" height="920" />
+    <state width="1766" height="214" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583517810646" />
+    <state width="1766" height="214" key="GridCell.Tab.0.right" timestamp="1583517810646">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1300" height="127" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1582315726106" />
+    <state width="1766" height="214" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583517810646" />
     <state width="1207" height="296" key="GridCell.Tab.1.bottom" timestamp="1582315726104">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -406,9 +426,9 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="153" y="101" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1582314050561" />
-    <state x="261" y="192" key="Vcs.Push.Dialog.v2" timestamp="1582384965565">
+    <state x="261" y="192" key="Vcs.Push.Dialog.v2" timestamp="1582385547570">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="261" y="192" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1582384965565" />
+    <state x="261" y="192" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1582385547570" />
   </component>
 </project>
