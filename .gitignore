@@ -112,3 +112,7 @@ venv.bak/
 .idea/misc.xml
 .idea/PythonDersleri.iml
 .idea/workspace.xml
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/modules.xml
+.idea/PythonDersleriGit.iml
