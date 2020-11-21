@@ -1,0 +1,22 @@
+metin = "Balıkesir üniversitesi necatibey Eğitim Fakültesi"
+bm = metin.upper()
+print(metin.upper())
+print(metin.lower())
+print(metin.capitalize())
+print(metin.replace("i", "o", 3))
+print(metin.replace("Eğitim", "Mühendislik"))
+kelimeler = metin.split()
+print(kelimeler)
+print(kelimeler[2].capitalize())
+ifade = "  kullanıcı adı   "
+print(ifade.strip())
+print(ifade.lstrip())
+print(ifade.rstrip())
+print(metin.endswith("tesi"))
+print("büyük harf mi:", metin.isupper())
+a = "234234"
+print("harf mi:", a.isalnum())
+print("sayı mı:", a.isnumeric())
+print(metin.title())
+print(metin.swapcase())
+print(metin.count("a"))

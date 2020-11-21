@@ -1,0 +1,6 @@
+a = range(20)
+print(*a)
+b = range(5, 30)
+print(*b)
+c = range(0, 50, 2)
+print(*c)
