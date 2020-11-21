@@ -1,0 +1,11 @@
+str = "Necatibey Eğitim Fakültesi"
+print(str[5])
+print(str[0:5])
+print(str[10:])
+print(str[:10])
+print(str[:])
+print(str[2:16:2])
+print(str[2::3])
+print(str[::5])
+print(str[::-1])
+print(str[20:10:-2])
