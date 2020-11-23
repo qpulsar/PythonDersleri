@@ -14,3 +14,7 @@ def bol_bul(dizi, bolen):
 
 sayilar = [1, 4, 67, 8, 32, 2, 4, 6]
 print(bol_bul(sayilar, 2))
+
+
+sayilar = [1, 4, 67, 8, 32, 2, 4, 6]
+print(bol_bul(sayilar,  2))
