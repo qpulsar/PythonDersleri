@@ -10,6 +10,14 @@ def sayiekle(dugme):
     sayi.set(sayi.get() + str(dugme))
 
 
+def nokta():
+    global noktavar
+    if not noktavar:
+        sayi.set(sayi.get() + ".")
+        noktavar = True
+
+
+noktavar = False
 sayi = StringVar()
 
 dizilis = [7, 8, 9, 4, 5, 6, 1, 2, 3]
@@ -21,9 +29,10 @@ for satir in range(1, 4):
                command=lambda p=dizilis[sayac]: sayiekle(p)) \
             .grid(row=satir, column=sutun, sticky="NEWS")
         sayac += 1
-Button(root, text="0", width=4, height=2, font=f). \
+Button(root, text="0", width=4, height=2, font=f,
+       command=lambda p=0: sayiekle(p)). \
     grid(row=4, column=0, sticky="NEWS", columnspan=2)
-Button(root, text=".", width=4, height=2, font=f). \
+Button(root, text=".", width=4, height=2, font=f, command=nokta). \
     grid(row=4, column=2, sticky="NEWS")
 Button(root, text="C", width=2, height=1, font=f, bg="gray30"). \
     grid(row=0, column=3)
