@@ -12,16 +12,26 @@ def suretut():
 
 def uzerinde(nesne):
     bizimki = nesne.widget
+    bizimki["bg"] = "violetred"
 
 
 def gitti(nesne):
     bizimki = nesne.widget
+    bizimki["bg"] = "dodgerblue"
 
 
 def tiklandi(nesne):
+    global kalan_mayin_sayisi
     bizimki = nesne.widget
+    if bizimki["text"] in (".", "*"):
+        return
     if int(bizimki["text"]) in mayin_tarlasi:
         print("PATLADI", bizimki["text"])
+        kalan_mayin_sayisi -= 1
+        lbl_mayin["text"] = kalan_mayin_sayisi
+        bizimki["text"] = "*"
+    else:
+        bizimki["text"] = "."
 
 
 mayin_sayisi = 20
@@ -30,7 +40,6 @@ f = ("Tahoma", 20)
 sure = 0
 devam = True
 
-
 mayin_tarlasi = []
 for i in range(mayin_sayisi):
     tmp = random.randrange(0, 400)
@@ -38,7 +47,6 @@ for i in range(mayin_sayisi):
         tmp = random.randrange(0, 400)
 
     mayin_tarlasi.append(tmp)
-
 
 print(mayin_tarlasi)
 root = Tk()
