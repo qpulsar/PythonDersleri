@@ -22,6 +22,7 @@ def kaydet():
     c.execute(sql)
     conn.commit()
 
+
 root = Tk()
 root.title("sqlite3 browser")
 root.geometry("500x500+1200+100")
