@@ -147,6 +147,7 @@ btn_cik.pack(side=LEFT)
 skrol_yatay = Scrollbar(sag, orient=HORIZONTAL)
 skrol_dikey = Scrollbar(sag, orient=VERTICAL)
 
+#kayıtların listeleneceği tablo
 tree = ttk.Treeview(sag,
                     columns=("SN", "İsim", "Numara", "Vize", "Final", "Bütünleme", "Ortalama", "Sonuç"),
                     selectmode="extended", height=450, yscrollcommand=skrol_dikey.set, xscrollcommand=skrol_yatay.set)
