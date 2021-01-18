@@ -1,6 +1,8 @@
+import math
 from tkinter import *
 import sqlite3
 import tkinter.ttk as ttk
+from tkinter import messagebox
 
 root = Tk()
 root.title("BASIT CRUD")
@@ -34,13 +36,56 @@ def yeni_kayit():
         lbl_sonuc["text"] = "Veriler kaydedildi."
         lbl_sonuc["bg"] = "lightblue"
         sql = "insert into ogrenci (isim,numara, vize, fin, but) values ('{}','{}',{},{},{})".format(isim.get(),
-                                numara.get(), vize.get(), fin.get(), but.get())
-
+                                                                                                     numara.get(),
+                                                                                                     vize.get(),
+                                                                                                     fin.get(),
+                                                                                                     but.get())
+        isim.set("")
+        numara.set("")
+        vize.set(0)
+        fin.set(0)
+        but.set(0)
         cursor.execute(sql)
         baglan.commit()
 
+
 def oku():
-    pass
+    tree.delete(*tree.get_children())
+    sql = "select * from ogrenci order by id"
+    cursor.execute(sql)
+    veriler = cursor.fetchall()
+    for satir in veriler:
+        if satir[4] != 0:
+            ortalama = round(satir[3] * 0.4 + satir[4] * .6)
+        else:
+            ortalama = round(satir[3] * 0.4 + satir[5] * .6)
+        if (satir[4] >= 50 or satir[5] >= 50) and ortalama >= 45:
+            sonuc = "Başarılı"
+        else:
+            sonuc = "Başarısız"
+        tree.insert('', 'end', values=(satir[0], satir[1], satir[2], satir[3], satir[4], satir[5], ortalama, sonuc))
+
+    lbl_sonuc["text"] = "Tüm veriler aktarıldı"
+    lbl_sonuc["bg"] = "lightblue"
+
+
+def sil():
+    cevap = messagebox.askquestion('BÖTE CRUD', 'Seçili kayıtları silmek istediğinize emin misiniz?', icon="error")
+    if cevap == "yes":
+        for sil_id in tree.selection():
+            sql = "delete from ogrenci where id={}".format(tree.item(sil_id)['values'][0])
+            print(sql)
+            cursor.execute(sql)
+        baglan.commit()
+        tree.delete(*tree.selection())
+
+
+def cikis():
+    cevap = messagebox.askquestion('BÖTE CRUD', 'Programdan çıkmak istediğinize emin misiniz?', icon="warning")
+    if cevap == "yes":
+        root.destroy()
+        exit()
+
 
 isim = StringVar()
 numara = StringVar()
@@ -90,13 +135,13 @@ e_but.grid(row=4, column=1, sticky=W)
 
 btn_yeni = Button(dugmeFrame, width=10, text="kaydet", command=yeni_kayit)
 btn_yeni.pack(side=LEFT)
-btn_oku = Button(dugmeFrame, width=10, text="Oku")
+btn_oku = Button(dugmeFrame, width=10, text="Oku", command=oku)
 btn_oku.pack(side=LEFT)
 btn_guncelle = Button(dugmeFrame, width=10, text="Güncelle")
 btn_guncelle.pack(side=LEFT)
-btn_sil = Button(dugmeFrame, width=10, text="Sil")
+btn_sil = Button(dugmeFrame, width=10, text="Sil", command=sil)
 btn_sil.pack(side=LEFT)
-btn_cik = Button(dugmeFrame, width=10, text="Çıkış")
+btn_cik = Button(dugmeFrame, width=10, text="Çıkış", command=cikis)
 btn_cik.pack(side=LEFT)
 
 skrol_yatay = Scrollbar(sag, orient=HORIZONTAL)
