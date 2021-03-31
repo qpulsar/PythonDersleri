@@ -1,0 +1,20 @@
+metin = "Balıkesir Üniversitesi necatibey Eğitim Fakültesi"
+print(metin)
+print(metin.upper())
+print(metin.lower())
+print(metin.capitalize())
+print(metin.swapcase())
+
+sonuc = metin.replace("a", "X", 2)
+print(sonuc)
+print(metin.count("i"))
+print(len(metin))
+print(metin[10])
+print(metin[5:10])
+print(metin[10:])
+print(metin[:10])
+print(metin[::-1])
+print(metin[::2])
+print(metin[20:10:-2])
+print(metin[10:20:2])
+
