@@ -6,8 +6,7 @@ root = tk.Tk()
 root.geometry('320x240')
 f = tk.Frame(root)
 tv = ttk.Treeview(f, show='tree')
-ybar = tk.Scrollbar(f, orient=tk.VERTICAL,
-                    command=tv.yview)
+ybar = tk.Scrollbar(f, orient=tk.VERTICAL, command=tv.yview)
 tv.configure(yscroll=ybar.set)
 directory = './..'
 tv.heading('#0', text='Dir：' + directory, anchor='w')
