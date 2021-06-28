@@ -74,7 +74,6 @@ def sil():
     if cevap == "yes":
         for sil_id in tree.selection():
             sql = "delete from ogrenci where id={}".format(tree.item(sil_id)['values'][0])
-            print(sql)
             cursor.execute(sql)
         baglan.commit()
         tree.delete(*tree.selection())
